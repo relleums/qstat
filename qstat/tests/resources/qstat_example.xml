@@ -1,0 +1,517 @@
+<?xml version='1.0'?>
+<job_info  xmlns:xsd="http://gridengine.sunsource.net/source/browse/*checkout*/gridengine/source/dist/util/resources/schemas/qstat/qstat.xsd?revision=1.11">
+  <queue_info>
+    <job_list state="running">
+      <JB_job_number>5074985</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>fact_phs_muon_20150422_148.sh</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>dt</state>
+      <JAT_start_time>2017-09-01T13:58:12</JAT_start_time>
+      <queue_name>fact_long@isdc-cn23.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>5074992</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>fact_phs_muon_20150422_160.sh</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>dt</state>
+      <JAT_start_time>2017-09-01T13:58:45</JAT_start_time>
+      <queue_name>fact_long@isdc-cn23.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>5075009</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>fact_phs_muon_20150409_192.sh</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>dt</state>
+      <JAT_start_time>2017-09-01T13:57:12</JAT_start_time>
+      <queue_name>fact_long@isdc-cn22.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176867</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110101_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:46</JAT_start_time>
+      <queue_name>test@isdc-cn17.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176868</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110101_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:51</JAT_start_time>
+      <queue_name>test@isdc-cn18.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176869</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110102_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:51</JAT_start_time>
+      <queue_name>test@isdc-cn16.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176870</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110102_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:51</JAT_start_time>
+      <queue_name>test@isdc-cn14.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176871</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110201_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:51</JAT_start_time>
+      <queue_name>test@isdc-cn15.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176872</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110201_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:51</JAT_start_time>
+      <queue_name>test@isdc-cn15.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176873</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110202_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:56</JAT_start_time>
+      <queue_name>test@isdc-cn22.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176874</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20110202_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:00:56</JAT_start_time>
+      <queue_name>test@isdc-cn14.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176875</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120101_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:01</JAT_start_time>
+      <queue_name>test@isdc-cn22.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176876</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120101_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:06</JAT_start_time>
+      <queue_name>test@isdc-cn17.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176877</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120102_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:06</JAT_start_time>
+      <queue_name>test@isdc-cn18.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176878</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120102_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:06</JAT_start_time>
+      <queue_name>test@isdc-cn22.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176879</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120201_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:11</JAT_start_time>
+      <queue_name>test@isdc-cn17.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176880</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120201_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:11</JAT_start_time>
+      <queue_name>test@isdc-cn22.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176881</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120202_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:11</JAT_start_time>
+      <queue_name>test@isdc-cn15.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176882</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20120202_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:11</JAT_start_time>
+      <queue_name>test@isdc-cn15.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176883</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20130101_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:16</JAT_start_time>
+      <queue_name>test@isdc-cn17.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176884</JB_job_number>
+      <JAT_prio>0.56000</JAT_prio>
+      <JB_name>phs_obs_20130101_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:26</JAT_start_time>
+      <queue_name>test@isdc-cn17.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176885</JB_job_number>
+      <JAT_prio>0.55239</JAT_prio>
+      <JB_name>phs_obs_20130102_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:31</JAT_start_time>
+      <queue_name>test@isdc-cn14.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176886</JB_job_number>
+      <JAT_prio>0.55228</JAT_prio>
+      <JB_name>phs_obs_20130102_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:31</JAT_start_time>
+      <queue_name>test@isdc-cn15.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>6176887</JB_job_number>
+      <JAT_prio>0.55219</JAT_prio>
+      <JB_name>phs_obs_20130201_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2017-09-01T14:01:31</JAT_start_time>
+      <queue_name>test@isdc-cn17.astro.unige.ch</queue_name>
+      <slots>1</slots>
+    </job_list>
+  </queue_info>
+  <job_info>
+    <job_list state="pending">
+      <JB_job_number>6176888</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20130201_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176889</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20130202_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176890</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20130202_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176891</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140101_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176892</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140101_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176893</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140102_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176895</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140102_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176896</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140201_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176897</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140201_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176898</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140202_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176899</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20140202_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176900</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150101_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176901</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150101_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176902</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150102_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176903</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150102_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176904</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150201_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176905</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150201_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176906</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150202_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176907</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20150202_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176908</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160101_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176909</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160101_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176910</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160102_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176911</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160102_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176912</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160201_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176913</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160201_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176914</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160202_001</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="pending">
+      <JB_job_number>6176915</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>phs_obs_20160202_002</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2017-09-01T14:00:38</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+  </job_info>
+</job_info>

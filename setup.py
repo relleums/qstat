@@ -17,15 +17,11 @@ setup(
         ]
     },
     install_requires=[
-        'docopt',
-        'scipy',
-        'sklearn',
-        'scikit-image',
-        'matplotlib',
-        'pyfact',
-        'pandas',
-        'tqdm',
-        'ujson',
+        'subprocess',
+        'xmltodict',
+        'datetime',
+        'os',
+        'pkg_resources',
     ],
     zip_safe=False,
 )

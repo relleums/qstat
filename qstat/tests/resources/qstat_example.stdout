@@ -1,0 +1,15 @@
+job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID 
+-----------------------------------------------------------------------------------------------------------------
+5074985 0.56000 fact_phs_m relleums     dt    08/31/2017 15:33:12 fact_long@isdc-cn23.astro.unig     1        
+5074992 0.56000 fact_phs_m relleums     dt    08/31/2017 15:33:45 fact_long@isdc-cn23.astro.unig     1        
+5075009 0.56000 fact_phs_m relleums     dt    08/31/2017 15:32:12 fact_long@isdc-cn22.astro.unig     1        
+6174799 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:54                                    1        
+6174800 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:54                                    1        
+6174801 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:54                                    1        
+6174802 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:55                                    1        
+6174803 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:55                                    1        
+6174804 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:55                                    1        
+6174805 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:55                                    1        
+6174806 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:56                                    1        
+6174807 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:56                                    1        
+6174808 0.00000 exec.sh    relleums     qw    08/31/2017 15:34:56                                    1  
