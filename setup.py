@@ -17,6 +17,7 @@ setup(
         ]
     },
     install_requires=[
+        'xmltodict'
     ],
     zip_safe=False,
 )
