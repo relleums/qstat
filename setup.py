@@ -17,11 +17,6 @@ setup(
         ]
     },
     install_requires=[
-        'subprocess',
-        'xmltodict',
-        'datetime',
-        'os',
-        'pkg_resources',
     ],
     zip_safe=False,
 )
