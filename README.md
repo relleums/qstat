@@ -32,6 +32,7 @@ job_list = qstat()
 for job in job_list:
     if job['@state'] == 'running':
         print('Job '+str(job['JB_job_number'])+' is running for its life!')
+"""
 Job 6177303 is running for its life!
 Job 6177304 is running for its life!
 Job 6177305 is running for its life!
@@ -41,6 +42,7 @@ Job 6177308 is running for its life!
 Job 6177309 is running for its life!
 Job 6177310 is running for its life!
 ...
+"""
 ```
 
 Use a pandas DataFrame:
@@ -49,7 +51,34 @@ from qstat import qstat
 import pandas as pd
 
 df = pd.DataFrame(qstat())
+
+df.head()
+
+"""
+    @state  JAT_prio       JAT_start_time  JB_job_number  \
+0  running      0.56  2017-09-02T02:03:12        5074985   
+1  running      0.56  2017-09-02T02:03:45        5074992   
+2  running      0.56  2017-09-02T02:02:13        5075009   
+3  running      0.56  2017-09-02T02:06:19        6177265   
+4  running      0.56  2017-09-02T02:06:19        6177266   
+
+                         JB_name  JB_owner  \
+0  fact_phs_muon_20150422_148.sh  relleums   
+1  fact_phs_muon_20150422_160.sh  relleums   
+2  fact_phs_muon_20150409_192.sh  relleums   
+3           phs_obs_20110101_001  relleums   
+4           phs_obs_20110101_002  relleums   
+
+                           queue_name slots state  
+0  fact_long@isdc-cn23.astro.unige.ch     1    dt  
+1  fact_long@isdc-cn23.astro.unige.ch     1    dt  
+2  fact_long@isdc-cn22.astro.unige.ch     1    dt  
+3       test@isdc-cn23.astro.unige.ch     1     r  
+4       test@isdc-cn23.astro.unige.ch     1     r 
+"""
+
 df.state == 'r'
+"""
 0     False
 1     False
 2     False
@@ -61,3 +90,4 @@ df.state == 'r'
 8      True
 9      True
 ...
+"""
