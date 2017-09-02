@@ -20,5 +20,4 @@ setup(
         'xmltodict'
     ],
     keywords = ['qsub', 'qstat', 'grid engine', 'SGE', 'queue']
-    zip_safe=False,
 )
