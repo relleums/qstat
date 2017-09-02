@@ -19,5 +19,6 @@ setup(
     install_requires=[
         'xmltodict'
     ],
+    keywords = ['qsub', 'qstat', 'grid engine', 'SGE', 'queue']
     zip_safe=False,
 )
