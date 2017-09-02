@@ -4,7 +4,7 @@ setup(
     name='qstat',
     version='0.0.1',
     description='Parse qstat xml to python dict',
-    url='https://github.com/relleums/qstat/',
+    url='https://github.com/relleums/qstat/archive/0.0.2.tar.gz',
     author='Sebastian Achim Mueller',
     author_email='sebmuell@phys.ethz.ch',
     license='GPLv3',
