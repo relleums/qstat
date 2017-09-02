@@ -5,6 +5,7 @@ The sungrid job submission framework known as ```qsub``` is a powerful tool to s
 This python qstat package parses the jobs listed in ```qstat -xml``` into a list of dictionaries. 
 
 ## Usage
+Get a list of qstat job info dicts:
 ```python
 from qstat import qstat 
 
@@ -20,6 +21,13 @@ job_list[13]
  'queue_name': 'test@isdc-cn23.astro.unige.ch',
  'slots': '1',
  'state': 'r'}
+```
+
+Iterate thorugh job info list:
+```python
+from qstat import qstat 
+
+job_list = qstat()
 
 for job in job_list:
     if job['@state'] == 'running':
@@ -34,3 +42,22 @@ Job 6177309 is running for its life!
 Job 6177310 is running for its life!
 ...
 ```
+
+Use a pandas DataFrame:
+```python
+from qstat import qstat
+import pandas as pd
+
+df = pd.DataFrame(qstat())
+df.state == 'r'
+0     False
+1     False
+2     False
+3      True
+4      True
+5      True
+6      True
+7      True
+8      True
+9      True
+...
