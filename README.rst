@@ -22,6 +22,18 @@ Usage
 
     queue_info, job_info = qstat()
     
+    all_jobs = queue_info + job_info
+
+    for job in all_jobs:    
+        print(job['JB_name'], 'is', job['@state'])
+
+::
+
+    my_job_001 is running
+    my_job_002 is running
+    my_job_003 is running
+
+
 
 .. |TravisBuildStatus| image:: https://travis-ci.org/relleums/qstat.svg?branch=master
    :target: https://travis-ci.org/relleums/qstat
