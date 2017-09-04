@@ -15,6 +15,29 @@ Install with
 
 Usage
 ~~~~~
+Get python dictionaries descibing your ```qsub``` jobs.
+
+.. code:: python
+
+    from qstat import qstat
+
+    queue_info, job_info = qstat()
+
+    queue_info[13]
+
+.. code:: python
+
+    {'@state': 'running',
+     'JAT_prio': '0.55008',
+     'JAT_start_time': '2017-09-04T16:22:50',
+     'JB_job_number': '6384796',
+     'JB_name': 'phs_obs_20120102_001',
+     'JB_owner': 'relleums',
+     'queue_name': 'test@isdc-cn11.astro.unige.ch',
+     'slots': '1',
+     'state': 'r'}
+
+Add both ```queue_info``` and ```job_info``` to have one list of both running and waiting jobs:
 
 .. code:: python
 
@@ -33,6 +56,33 @@ Usage
     my_job_002 is running
     my_job_003 is running
 
+
+or combine with e.g. with pandas DataFrame
+
+.. code:: python
+
+    from qstat import qstat
+    q, j = qstat()
+
+    import pandas as pd
+    df = pd.DataFrame(q + j)
+    
+    df.tail()
+::
+
+          @state JAT_prio JAT_start_time JB_job_number               JB_name  \
+    190  pending  0.00000            NaN       6384973  phs_obs_20160102_002   
+    191  pending  0.00000            NaN       6384974  phs_obs_20160201_001   
+    192  pending  0.00000            NaN       6384975  phs_obs_20160201_002   
+    193  pending  0.00000            NaN       6384976  phs_obs_20160202_001   
+    194  pending  0.00000            NaN       6384977  phs_obs_20160202_002   
+
+         JB_owner   JB_submission_time queue_name slots state  
+    190  relleums  2017-09-04T16:22:51       None     1    qw  
+    191  relleums  2017-09-04T16:22:51       None     1    qw  
+    192  relleums  2017-09-04T16:22:51       None     1    qw  
+    193  relleums  2017-09-04T16:22:51       None     1    qw  
+    194  relleums  2017-09-04T16:22:51       None     1    qw 
 
 
 .. |TravisBuildStatus| image:: https://travis-ci.org/relleums/qstat.svg?branch=master
