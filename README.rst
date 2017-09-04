@@ -3,9 +3,9 @@ qstat for python |TravisBuildStatus| |PyPIStatus|
 
 A python API for qstat 
 ----------------------
-The sungrid job submission framework known as ```qsub``` is a powerful tool to spread the workload of a task over many machines in parallel. To check the status of the jobs in the queue there is ```qstat``` which can print a human readable status table which can be useful to keep track of once submitted compute jobs. There is also a machine readable flavor exporting to ```xml```.
+The sungrid job submission framework known as ```qsub``` is a powerful tool to distribute your workload over many machines in parallel. To check the status of the jobs in the queue there is ```qstat``` which can print a human readable status table on the command line. Such status can be useful to keep track of your submitted compute jobs to e.g. prevent duplicate submission.
 
-This python qstat package parses the jobs listed in ```qstat -xml``` into a list of dictionaries. 
+This python qstat wrapper parses the jobs listed in ```qstat -xml``` into a list of dictionaries. 
 
 Install with
 
