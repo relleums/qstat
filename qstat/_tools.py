@@ -1,6 +1,5 @@
 import subprocess as sp
 import xmltodict
-from datetime import datetime
 
 
 def qstat(qstat_path='qstat', xml_option='-xml'):
