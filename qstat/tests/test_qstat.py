@@ -2,7 +2,7 @@ import qstat
 import os
 import pkg_resources
 from datetime import datetime
-
+import tempfile
 
 qstat_example_xml_path = pkg_resources.resource_filename(
     'qstat', 
@@ -18,45 +18,39 @@ qstat_xml_empty_queue_path = pkg_resources.resource_filename(
 def test_read_empty_qstat():
     with open(qstat_xml_empty_queue_path, 'rt') as fin:
         qstat_xml_empty_queue = fin.read()
-    jobs = qstat._tools.xml2job_infos(qstat_xml_empty_queue)
-    assert len(jobs) == 0
+    queue_info, job_info = qstat._tools.xml2queue_and_job_info(qstat_xml_empty_queue)
+    assert len(queue_info) == 0
+    assert len(job_info) == 0
 
 
-def test_read_empty_qstat_suitable_types():
-    with open(qstat_xml_empty_queue_path, 'rt') as fin:
-        qstat_xml_empty_queue = fin.read()
-    jobs = qstat._tools.xml2job_infos(qstat_xml_empty_queue)
-    sjobs = qstat._tools.typed_job_infos(jobs)
-    assert len(sjobs) == 0
-
-
-def test_jobs_in_qstatxml():
+def test_queue_and_job_info_in_qstatxml():
     with open(qstat_example_xml_path, 'rt') as fin:
         qstat_xml = fin.read()
-    jobs = qstat._tools.xml2job_infos(qstat_xml)
-    assert len(jobs) == 51
-
-
-def test_jobs_in_qstatxml_suitable_types():
-    with open(qstat_example_xml_path, 'rt') as fin:
-        qstat_example_xml = fin.read()
-    jobs = qstat._tools.xml2job_infos(qstat_example_xml)
-    sjobs = qstat._tools.typed_job_infos(jobs)
-    assert len(sjobs) == 51
-    for job in sjobs:
-        assert type(job['JB_job_number']) is int
-        assert type(job['JAT_prio']) is float
-        if 'JB_submission_time' in job:
-            assert type(job['JB_submission_time']) is datetime
+    queue_info, job_info = qstat._tools.xml2queue_and_job_info(qstat_xml)
+    assert len(queue_info + job_info) == 51
+    assert len(queue_info) == 24
+    assert len(job_info) == 27
 
 
 def test_qsat_not_installed_exception():
-    path_which_most_certainly_does_not_exist = os.path.join(
-        'dev','unicorn','rainbow','barf','minus-null'
-    )
-    try:
-        qstat._tools.qstat2xml(
-            qstat_path=path_which_most_certainly_does_not_exist
-        )
-    except FileNotFoundError as e:
-        assert 'qstat is not installed' in e.message
+    with tempfile.TemporaryDirectory(prefix='qstat_') as tmp:
+        nap = os.path.join(tmp,'unicorn.barf')
+        try:
+            qstat._tools.qstat2xml(
+                qstat_path=nap
+            )
+        except FileNotFoundError as e:
+            assert 'Maybe "'+nap+' -xml" is not installed.' in e.message
+
+
+def test_qsat_xml_oprion():
+    with tempfile.TemporaryDirectory(prefix='qstat_') as tmp:
+        nap = os.path.join(tmp,'unicorn.barf')
+        xml_option = '-probably_not'
+        try:
+            qstat._tools.qstat2xml(
+                qstat_path=nap,
+                xml_option=xml_option
+            )
+        except FileNotFoundError as e:
+            assert 'Maybe "'+nap+' '+xml_option+'" is not installed.' in e.message
