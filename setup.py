@@ -1,9 +1,9 @@
-from setuptools import setup
+import setuptools
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
-setup(
+setuptools.setup(
     name='qstat',
     version='0.0.5',
     description='Parse qstat xml to python dict',
