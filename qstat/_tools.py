@@ -12,7 +12,7 @@ def qstat(qstat_path="qstat", xml_option="-xml"):
     Returns
     -------
     queue_info : list
-        A list of jobs in 'queue_info'. Jobs are dictionaries with both string 
+        A list of jobs in 'queue_info'. Jobs are dictionaries with both string
         keys and string names.
     job_info : list
         A list of jobs in 'job_info'.
@@ -57,7 +57,7 @@ def xml2queue_and_job_info(qstatxml):
     Returns
     -------
     queue_info : list
-        A list of jobs in 'queue_info'. Jobs are dictionaries with both string 
+        A list of jobs in 'queue_info'. Jobs are dictionaries with both string
         keys and string names.
     job_info : list
         A list of jobs in 'job_info'.
