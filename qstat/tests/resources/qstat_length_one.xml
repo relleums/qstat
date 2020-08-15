@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<job_info  xmlns:xsd="http://arc.liv.ac.uk/repos/darcs/sge/source/dist/util/resources/schemas/qstat/qstat.xsd">
+  <queue_info>
+  </queue_info>
+  <job_info>
+    <job_list state="pending">
+      <JB_job_number>8586154</JB_job_number>
+      <JAT_prio>0.00000</JAT_prio>
+      <JB_name>config.json</JB_name>
+      <JB_owner>relleums</JB_owner>
+      <state>qw</state>
+      <JB_submission_time>2020-08-15T19:44:26</JB_submission_time>
+      <queue_name></queue_name>
+      <slots>1</slots>
+    </job_list>
+  </job_info>
+</job_info>

@@ -14,6 +14,10 @@ qstat_xml_empty_queue_path = pkg_resources.resource_filename(
     os.path.join('tests','resources','qstat_empty_queue.xml')
 )
 
+qstat_length_one_xml_path = pkg_resources.resource_filename(
+    'qstat', 
+    os.path.join('tests','resources','qstat_length_one.xml')
+)
 
 def test_read_empty_qstat():
     with open(qstat_xml_empty_queue_path, 'rt') as fin:
@@ -54,3 +58,11 @@ def test_qsat_xml_oprion():
             )
         except FileNotFoundError as e:
             assert 'Maybe "'+nap+' '+xml_option+'" is not installed.' in e.message
+
+
+def test_read_qstat_with_length_one():
+    with open(qstat_length_one_xml_path, 'rt') as fin:
+        qstat_xml = fin.read()
+    queue_info, job_info = qstat._tools.xml2queue_and_job_info(qstat_xml)
+    assert len(queue_info) == 0
+    assert len(job_info) == 1
