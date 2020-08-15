@@ -61,12 +61,20 @@ def xml2queue_and_job_info(qstatxml):
         A list of jobs in 'job_info'.
     """
     x = xmltodict.parse(qstatxml)
-    queue_info = []
-    if x['job_info']['queue_info'] is not None:
-        for job in x['job_info']['queue_info']['job_list']:
-            queue_info.append(dict(job))
-    job_info = []
-    if x['job_info']['job_info'] is not None:
-        for job in x['job_info']['job_info']['job_list']:
-            job_info.append(dict(job))
-    return queue_info, job_info
+    queue_info = x['job_info']['queue_info']
+    job_info = x['job_info']['job_info']
+    queue_dicts = []
+    if queue_info is not None:
+        if isinstance(queue_info['job_list'],list):
+            for dict_ in queue_info['job_list']:
+                queue_dicts.append(dict_)
+        else:
+            queue_dicts.append(queue_info['job_list'])
+    job_dicts = []
+    if job_info is not None:
+        if isinstance(job_info['job_list'],list):
+            for dict_ in job_info['job_list']:
+                job_dicts.append(dict_)
+        else:
+            job_dicts.append(job_info['job_list'])
+    return queue_dicts,job_dicts
