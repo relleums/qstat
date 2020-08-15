@@ -1,8 +1,13 @@
 from setuptools import setup
+
+with open("README.md", "r") as f:
+    long_description = f.read()
+
 setup(
     name='qstat',
     version='0.0.5',
     description='Parse qstat xml to python dict',
+    long_description=long_description,
     url='https://github.com/relleums/qstat/archive/0.0.4.tar.gz',
     author='Sebastian Achim Mueller',
     author_email='sebastian-achim.mueller@mpi-hd.mpg.de',
