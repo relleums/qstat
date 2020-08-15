@@ -1,5 +1,5 @@
-qstat for python |TravisBuildStatus| |PyPIStatus|
-=================================================
+qstat for python |TravisBuildStatus| |PyPIStatus| |BlackStyle|
+==============================================================
 
 A python API for qstat 
 ----------------------
@@ -90,3 +90,6 @@ or combine with e.g. with pandas DataFrame
    
 .. |PyPIStatus| image:: https://badge.fury.io/py/qstat.svg
    :target: https://pypi.python.org/pypi/qstat
+
+.. |BlackStyle| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
